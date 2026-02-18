@@ -1,0 +1,48 @@
+/* Definimos tus variables de marca */
+:root {
+    --negro: #1a1a1a;
+    --gris-suave: #f4f4f4;
+    --espaciado: 40px;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif; /* Muy editorial */
+    line-height: 1.6;
+    color: var(--negro);
+    margin: 0;
+    padding: var(--espaciado);
+}
+
+header {
+    border-bottom: 1px solid var(--negro);
+    padding-bottom: 20px;
+    margin-bottom: var(--espaciado);
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.project-info h2 {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 400px;
+    background-color: var(--gris-suave);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+    margin-top: 20px;
+}
